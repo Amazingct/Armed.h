@@ -16,7 +16,7 @@ void SysTick_Handler(void)
 }
 void Delay(__IO uint32_t nTime)
 {
-         TimingDelay = nTime;
+        // TimingDelay = nTime;
          while(TimingDelay != 0);
 }
 
